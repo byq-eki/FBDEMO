@@ -1,0 +1,21 @@
+{
+    "FileVersion": 3,
+    "Version": 1,
+    "VersionName": "1.0",
+    "FriendlyName": "OpenHarmony Bridge",
+    "Description": "Provides communication between Unreal Engine and HarmonyOS (OpenHarmony) native ArkTS code via NAPI, analogous to the OpenHarmonyJSObject used by 团结引擎 (Unity).",
+    "Category": "Platform",
+    "CreatedBy": "byq-eki",
+    "CanContainContent": false,
+    "IsBetaVersion": false,
+    "IsExperimentalVersion": false,
+    "Installed": false,
+    "Modules": [
+        {
+            "Name": "OpenHarmonyBridge",
+            "Type": "Runtime",
+            "LoadingPhase": "Default",
+            "PlatformAllowList": ["OpenHarmony"]
+        }
+    ]
+}
